@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: lightpink;
+  padding-top: 60px;
+  /* add padding to the top of the body */
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  /* add transition for the background color */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  /* add transition for hover animation */
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  /* change the background color on hover */
+  color: black;
+  /* change the text color on hover */
+}
+
+.content {
+  padding: 60px 0;
+  text-align: center;
+}

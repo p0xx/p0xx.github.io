@@ -1,0 +1,20 @@
+.start-now-button {
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.start-now-button:hover {
+ background-color: rgba(255, 192, 203, 0.8); /* light pink, 80% transparency */
+ transform: scale(1.1); /* increase button size when hovered */
+ box-shadow: 0 0 20px rgba(255, 192, 203, 0.7); /* increase shadow size when hovered */
+}
