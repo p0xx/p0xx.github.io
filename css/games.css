@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: lightpink;
+  padding-top: 60px;
+  /* add padding to the top of the body */
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  /* add transition for the background color */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  /* add transition for hover animation */
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  /* change the background color on hover */
+  color: black;
+  /* change the text color on hover */
+}
+
+.content {
+  padding: 60px 0;
+  text-align: center;
+}
+
+
+
+
+.image-container:hover .hover-text {
+ transform: translateY(0%);
+}
+
+.hover-text {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+ opacity: 0;
+ visibility: visible;
+ background-color: rgba(0, 0, 0, 0.5);
+ transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.image-container {
+ position: relative;
+ width: 200px;
+ height: 200px;
+ overflow: hidden;
+ border: 5px solid pink;
+ border-radius: 20px;
+ transform: scale(1);
+ transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.image-container img {
+ width: 100%;
+ height: auto;
+}
+
+.image-container:hover .hover-text {
+ opacity: 1;
+ visibility: visible;
+}
+
+.image-container:hover {
+ transform: scale(1.1);
+ box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
