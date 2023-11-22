@@ -1,0 +1,39 @@
+body {
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+ color: lightpink;
+ padding-top: 120px; /* increase padding to the top of the body */
+}
+
+.navbar {
+ background-color: black;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ width: 100%;
+ padding: 20px 0; /* increase padding */
+ transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar a {
+ float: left;
+ display: block;
+ color: hotpink;
+ text-align: center;
+ padding: 14px 24px; /* increase padding */
+ text-decoration: none;
+ border-radius: 20px; /* add border radius */
+ transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+.content {
+ padding: 120px 0; /* increase padding */
+ text-align: center;
+}
