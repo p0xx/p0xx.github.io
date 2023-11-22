@@ -10,7 +10,7 @@ body {
  justify-content: center;
  align-items: center;
  height: 100vh;
- padding: 10px;
+ padding: 0px;
 }
 
 .image-container {
@@ -41,6 +41,7 @@ body {
  justify-content: center;
  align-items: center;
  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+ font-size: 18px; /* Add your desired font size here */
 }
 
 .image-container:hover .hover-text {
