@@ -1,8 +1,12 @@
 body {
  font-family: Arial, sans-serif;
  font-size: 24px;
- color: lightpink;
+ color: coral;
  padding-top: 120px; /* increase padding to the top of the body */
+ background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDKMEzGZ3Jjc4YoBe3t6N2mI5Atno3XiLM7HtIGdKvfE8FJQTlD2D600Xdog0bpsHuhcMDp4kcoTTe2jB_QDkwq0g70Aw=w1366-h643');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
 }
 
 .navbar {
@@ -34,8 +38,120 @@ body {
 }
 
 .content {
- padding: 120px 0; /* increase padding */
+ padding: 15px 0; /* decrease padding */
  text-align: center;
+}
+
+.content h1 {
+ color: pink;
+ margin-top: 0;
+ padding-top: 0;
+}
+
+.content h2 {
+ color: pink;
+ margin-top: 20px;
+ padding-top: 10px;
+ border-top: 2px solid pink;
+}
+
+.hover-text {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+ opacity: 0;
+ visibility: visible;
+ background-color: rgba(0, 0, 0, 0.5);
+ transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.image-container {
+ position: relative;
+ width: 200px;
+ height: 200px;
+ overflow: hidden;
+ border: 5px solid pink;
+ border-radius: 20px;
+ transform: scale(1);
+ transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.image-container img {
+ width: 100%;
+ height: auto;
+}
+
+.image-container:hover .hover-text {
+ opacity: 1;
+ visibility: visible;
+}
+
+.image-container:hover {
+ transform: scale(1.1);
+ box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}body {
+ font-family: Arial, sans-serif;
+ font-size: 24px;
+ color: coral;
+ padding-top: 120px; /* increase padding to the top of the body */
+ background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDKMEzGZ3Jjc4YoBe3t6N2mI5Atno3XiLM7HtIGdKvfE8FJQTlD2D600Xdog0bpsHuhcMDp4kcoTTe2jB_QDkwq0g70Aw=w1366-h643');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+.navbar {
+ background-color: black;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ width: 100%;
+ padding: 20px 0; /* increase padding */
+ transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar a {
+ float: left;
+ display: block;
+ color: hotpink;
+ text-align: center;
+ padding: 14px 24px; /* increase padding */
+ text-decoration: none;
+ border-radius: 20px; /* add border radius */
+ transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+ background-color: #ddd;
+ color: black;
+}
+
+.content {
+ padding: 15px 0; /* decrease padding */
+ text-align: center;
+}
+
+.content h1 {
+ color: pink;
+ margin-top: 0;
+ padding-top: 0;
+}
+
+.content h2 {
+ color: pink;
+ margin-top: 20px;
+ padding-top: 10px;
+ border-top: 2px solid pink;
 }
 
 .hover-text {
