@@ -1,5 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
 body {
- font-family: Arial, sans-serif;
+ font-family: Inter, sans-serif;
  font-size: 24px;
  color: coral;
  padding-top: 120px; /* increase padding to the top of the body */
