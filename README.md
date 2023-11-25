@@ -1,4 +1,22 @@
-# p0xx.github.io
-[🎮] 60+ games play now!
+<a href="https://p0xgames.online">
+<img style="border-radius:50%" height="150px" src="img/logo.png"></a>
+</kbd>
+</p>
 
-Credit to all owners of the games on the website.
+<h1 align="center">p0x games V2</h1>
+
+
+
+
+# Features
+- 60+ games & apps.
+- Adobe Flash games.
+- HTML5 Games.
+- WebGL/Unity games
+- Clean interface
+
+# Resources used
+
+
+- [ruffle-rs](https://github.com/lbannana/lbannana.github.io) flash emulator
+- [ruffle-rs-link](https://ruffle.rs)
