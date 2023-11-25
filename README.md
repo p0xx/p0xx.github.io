@@ -25,3 +25,5 @@
 # Credits and extra stuff
 - Make sure to check out nate-games he motivated me to create this :)
 - [Nate-games.xyz](https://github.com/nate-games/nate-games.xyz)
+- Oh yeah check this awesome person out for making the font much better LOL
+- [Rahib777-7](https://github.com/Rahib777-7)
