@@ -1,4 +1,5 @@
 <a href="https://p0xgames.online">
+<p align="center">
 <img class="center" style="border-radius:50%" height="150px" src="img/logo.png">
 </kbd>
 </p>
