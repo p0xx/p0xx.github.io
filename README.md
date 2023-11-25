@@ -1,13 +1,4 @@
 <a href="https://p0xgames.online">
-<style>
-.center {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
-}
-</style>
-
 <img class="center" style="border-radius:50%" height="150px" src="img/logo.png">
 </kbd>
 </p>
