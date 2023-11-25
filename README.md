@@ -21,5 +21,7 @@
 - [ruffle-rs](https://github.com/lbannana/lbannana.github.io) flash emulator
 - [ruffle-rs-link](https://ruffle.rs)
 
+
+# Credits and extra stuff
 - Make sure to check out nate-games he motivated me to create this :)
 - [Nate-games.xyz](https://github.com/nate-games/nate-games.xyz)
