@@ -10,7 +10,7 @@
 
 
 # Features
-- 60+ games & apps.
+- 80+ games & apps.
 - Adobe Flash games.
 - HTML5 Games.
 - WebGL/Unity games
