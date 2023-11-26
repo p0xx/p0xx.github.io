@@ -13,7 +13,7 @@ body {
  left: 0;
  right: 0;
  width: 100%;
- padding: 20px 0; /* increase padding */
+ padding: 15px 0; /* increase padding */
  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -24,7 +24,7 @@ body {
  text-align: center;
  padding: 14px 24px; /* increase padding */
  text-decoration: none;
- border-radius: 20px; /* add border radius */
+ border-radius: 17px; /* add border radius */
  transition: background-color 0.3s ease-in-out;
 }
 
