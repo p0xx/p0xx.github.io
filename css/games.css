@@ -3,7 +3,7 @@ body {
 font-family: Inter, sans-serif;
  font-size: 24px;
  color: coral;
- padding-top: 120px; /* increase padding to the top of the body */
+ padding-top: 10px; /* increase padding to the top of the body */
  background-image: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDKMEzGZ3Jjc4YoBe3t6N2mI5Atno3XiLM7HtIGdKvfE8FJQTlD2D600Xdog0bpsHuhcMDp4kcoTTe2jB_QDkwq0g70Aw=w1366-h643');
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -17,7 +17,7 @@ font-family: Inter, sans-serif;
  left: 0;
  right: 0;
  width: 100%;
- padding: 20px 0; /* increase padding */
+ padding: 15px 0; /* increase padding */
  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
@@ -28,7 +28,7 @@ font-family: Inter, sans-serif;
  text-align: center;
  padding: 14px 24px; /* increase padding */
  text-decoration: none;
- border-radius: 20px; /* add border radius */
+ border-radius: 17px; /* add border radius */
  transition: background-color 0.3s ease-in-out;
 }
 
