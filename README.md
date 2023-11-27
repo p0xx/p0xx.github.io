@@ -26,3 +26,6 @@
 # Credits and extra stuff
 - Make sure to check out nate-games he motivated me to create this :)
 - [Nate-games.xyz](https://github.com/nate-games/nate-games.xyz)
+
+- For the proxy stuff its in this repo ( im a dev at nategames and ill ask nate if its needed to be made back )
+- [Repo link](https://github.com/p0xx/pr0x1es-nategames.github.io)
