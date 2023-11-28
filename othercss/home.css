@@ -1,0 +1,11 @@
+html, body {
+    background-color: #222;
+}
+
+.logo {
+    width: 175px;
+    height: 175px;
+    background-image: url('https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/0/assets/img/favicon.png');
+    margin-bottom: -45px;
+    background-size: contain;
+}
