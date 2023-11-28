@@ -1,0 +1,44 @@
+  .nav {
+    height: 69px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px #000;
+    background-color: #1c1c1c;
+    font-size: 14px;
+  }
+  
+  .nav-content {
+    margin-left:2em;
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-content a {
+    color:white;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.2s;
+  }
+
+  .nav-content a:hover {
+    opacity: calc(0.7);
+  }
+
+  .login {
+    color:white;
+    position: absolute;
+    right: 2em;
+  }
+
+  .login a:hover {
+    opacity: calc(0.7);
+  }
+
+  /* .nav-home {
+    left: 15px; position: absolute;
+  }
+  */
